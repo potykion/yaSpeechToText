@@ -4,7 +4,7 @@
 
 ## Сетап
 
-0. `poetry install`
+0. `poetry install` + создать `.env` по аналогии с `.env.sample`
 1. Закинуть в `/data/acc/` или в `/data/opus/` аудио-файлы (YSK поддерживает только .opus, .acc умею переводить в .opus) 
 2. Запускается это все в `acc_to_text.ipynb`
 3. Там нужно прописать `/data/aac/postman.aac` в `aac_files` или для .opus файлов в `opus_files` (ну там коммент есть о этом)
